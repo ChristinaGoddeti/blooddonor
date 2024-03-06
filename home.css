@@ -1,0 +1,82 @@
+*{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+}
+body
+{
+background-color:red;
+	  padding:0 10px;
+}
+.container
+{
+	   
+	    max-width:1000px;
+	    width:1500px;
+		background-color:white;
+		margin:20px auto;
+        padding:30px;
+        box-shadow:5px 5px 5px rgba(0,0,0,0.5);
+}
+select{
+	position:absolute;
+	transform:translate(-50%,-50%);
+	top:50%;
+	left:50%;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	width:305px;
+	padding:10px 20px;
+	font-family:'poppins',sans-serif;
+	font-weight:600;
+	font-size:20px;
+	letter-spacing:0.5px;
+	cursor:pointer;
+	background-color:#ff0067;
+	color:#ffffff;
+	border:6px solid #ff0067;
+	border-radius:5px;
+	background-repeat:no-repeat;
+	background-size:247px 0;
+	outline:none;
+	box-shadow:0 0 20px rgba(20,20,30,0.25);
+	}
+	select::-ms-expand{
+		display:none;
+	}
+	select:hover{
+		border:6px solid #ff66a3;
+	}
+	select option{
+		text-align:center;
+			background-color:#ff0067;
+	letter-spacing:1.2px;
+	font-weight:400;
+	font-size:18px;
+	}
+	selected{
+	display:none;
+	}
+.button{
+	position:relative;
+	text-align:center;
+	width:300px;
+	padding:20px;
+	font-size:15px;
+	background-color:#ff0067;
+	color:#ffffff;
+	font-family:poppins;
+	font-weight:400;
+	border-color:5px solid aqua;
+	text-transform:uppercase;
+	letter-spacing:15px;
+	cursor:pointer;
+	transition:1.5s;
+	border-radius:100px;
+}
+.button:hover{
+	box-shadow:0 5px 50px 0 aqua inset,
+	0 5px 50px 0 aqua,
+	0 5px 50px 0 aqua inset,
+	0 5px 50px 0 aqua;
+}
